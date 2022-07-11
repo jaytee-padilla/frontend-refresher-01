@@ -1,0 +1,24 @@
+{
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch styles/scss -o styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaytee-padilla/frontend-refresher-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaytee-padilla/frontend-refresher-01/issues"
+  },
+  "homepage": "https://github.com/jaytee-padilla/frontend-refresher-01#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
