@@ -14,7 +14,12 @@
   <div class="container">
     <div class="card-container">
       <div class="perfume-img-container">
-        <img src="/images/image-product-desktop.jpg" alt="Picture of perfume bottle">
+        <!-- <img srcset="/images/image-product-desktop.jpg" alt="Picture of perfume bottle"> -->
+        <picture>
+          <source media="(min-width: 621px)" srcset="images/image-product-desktop.jpg">
+          <source media="(max-width: 610px)" srcset="images/image-product-mobile.jpg">
+          <img src="images/image-product-mobile.jpg">
+      </picture>
       </div>
 
       <div class="content-container">

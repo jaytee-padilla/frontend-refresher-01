@@ -10,20 +10,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 95vh; }
+    min-height: 100vh; }
     body .container .card-container {
       display: flex;
       width: 600px;
       height: 100%;
       margin: 0 auto; }
+      @media screen and (max-width: 620px) {
+        body .container .card-container {
+          flex-direction: column;
+          padding: 10px; } }
       body .container .card-container .perfume-img-container {
         width: 50%; }
+        @media screen and (max-width: 620px) {
+          body .container .card-container .perfume-img-container {
+            width: 100%; } }
         body .container .card-container .perfume-img-container img {
           display: block;
           max-width: 100%;
           max-height: 100%;
           border-top-left-radius: 10px;
           border-bottom-left-radius: 10px; }
+          @media screen and (max-width: 620px) {
+            body .container .card-container .perfume-img-container img {
+              border-bottom-left-radius: 0px;
+              border-top-right-radius: 10px; } }
       body .container .card-container .content-container {
         display: flex;
         flex-direction: column;
@@ -34,6 +45,11 @@ body {
         background-color: white;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px; }
+        @media screen and (max-width: 620px) {
+          body .container .card-container .content-container {
+            width: 100%;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 10px; } }
         body .container .card-container .content-container h5 {
           font-size: 14px;
           font-weight: 500;
@@ -75,5 +91,6 @@ body {
             background-color: #1c232b;
             cursor: pointer; }
   body footer {
-    position: absolute;
+    text-align: center;
+    padding: 15px;
     bottom: 0; }
