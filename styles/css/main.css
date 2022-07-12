@@ -20,77 +20,79 @@ body {
         body .container .card-container {
           flex-direction: column;
           padding: 10px; } }
-      body .container .card-container .perfume-img-container {
-        width: 50%; }
-        @media screen and (max-width: 620px) {
-          body .container .card-container .perfume-img-container {
-            width: 100%; } }
-        body .container .card-container .perfume-img-container img {
-          display: block;
-          max-width: 100%;
-          max-height: 100%;
-          border-top-left-radius: 10px;
-          border-bottom-left-radius: 10px; }
-          @media screen and (max-width: 620px) {
-            body .container .card-container .perfume-img-container img {
-              border-bottom-left-radius: 0px;
-              border-top-right-radius: 10px; } }
-      body .container .card-container .content-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 50%;
-        padding: 30px;
-        text-align: left;
-        background-color: white;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px; }
-        @media screen and (max-width: 620px) {
-          body .container .card-container .content-container {
-            width: 100%;
-            border-top-right-radius: 0px;
-            border-bottom-left-radius: 10px; } }
-        body .container .card-container .content-container h5 {
-          font-size: 14px;
-          font-weight: 500;
-          letter-spacing: 5px;
-          margin: 0;
-          color: #6c7289; }
-        body .container .card-container .content-container h1 {
-          font-family: 'Fraunces', serif; }
-        body .container .card-container .content-container p {
-          color: #6c7289;
-          line-height: 1.6;
-          margin: 0; }
-        body .container .card-container .content-container .pricing {
-          display: flex;
-          align-items: center; }
-          body .container .card-container .content-container .pricing h1 {
-            margin-right: 25px;
-            color: #3c8067;
-            font-size: 32px; }
-          body .container .card-container .content-container .pricing p {
-            text-decoration: line-through; }
-        body .container .card-container .content-container .cart-btn {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          height: 50px;
-          font-size: 16px;
-          font-family: 'Montserrat', sans-serif;
-          background-color: #3c8067;
-          border: none;
-          border-radius: 10px;
-          color: white;
-          text-align: center;
-          text-decoration: none; }
-          body .container .card-container .content-container .cart-btn #cart-icon {
-            margin-right: 10px; }
-          body .container .card-container .content-container .cart-btn:hover {
-            background-color: #1c232b;
-            cursor: pointer; }
   body footer {
     text-align: center;
     padding: 15px;
     bottom: 0; }
+
+.perfume-img-container {
+  width: 50%; }
+  @media screen and (max-width: 620px) {
+    .perfume-img-container {
+      width: 100%; } }
+  .perfume-img-container img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; }
+    @media screen and (max-width: 620px) {
+      .perfume-img-container img {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px; } }
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding: 30px;
+  text-align: left;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; }
+  @media screen and (max-width: 620px) {
+    .content-container {
+      width: 100%;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 10px; } }
+  .content-container h5 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin: 0;
+    color: #6c7289; }
+  .content-container h1 {
+    font-family: 'Fraunces', serif; }
+  .content-container p {
+    color: #6c7289;
+    line-height: 1.6;
+    margin: 0; }
+  .content-container .pricing {
+    display: flex;
+    align-items: center; }
+    .content-container .pricing h1 {
+      margin-right: 25px;
+      color: #3c8067;
+      font-size: 32px; }
+    .content-container .pricing p {
+      text-decoration: line-through; }
+  .content-container .cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3c8067;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none; }
+    .content-container .cart-btn #cart-icon {
+      margin-right: 10px; }
+    .content-container .cart-btn:hover {
+      background-color: #1c232b;
+      cursor: pointer; }
